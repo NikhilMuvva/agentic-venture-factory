@@ -1,0 +1,7 @@
+google-genai
+numpy
+openai
+pillow
+pydantic
+python-dotenv
+sympy

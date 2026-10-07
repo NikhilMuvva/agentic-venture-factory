@@ -1,0 +1,512 @@
+[
+  {
+    "candidate_id": "TF-598224DE5DAB4F21AEA21E430DC71E44",
+    "work_order_id": "WO-001",
+    "work_order": {
+      "id": "WO-001",
+      "domain": "algebra",
+      "skill": "Solving linear equations in one variable",
+      "difficulty": "easy",
+      "question_type": "multiple_choice"
+    },
+    "timestamp": "2026-10-01T22:16:40Z",
+    "question": {
+      "section": "math",
+      "domain": "algebra",
+      "skill": "Solving linear equations in one variable",
+      "difficulty": "easy",
+      "question": "If 4x - 7 = 17, what is the value of x?",
+      "type": "multiple_choice",
+      "choices": {
+        "A": "4",
+        "B": "6",
+        "C": "10",
+        "D": "24"
+      },
+      "correct_answer": "B",
+      "explanation": "To solve the equation 4x - 7 = 17 for x, first add 7 to both sides of the equation to get 4x = 24. Then, divide both sides by 4 to get x = 6.",
+      "generator_confidence": 1.0
+    },
+    "solver_result": {
+      "answer": "B",
+      "reasoning": "To find the value of x, start with the equation 4x - 7 = 17. Add 7 to both sides: 4x = 17 + 7, which simplifies to 4x = 24. Next, divide both sides by 4: x = 24 / 4, which gives x = 6.",
+      "confidence": 1.0
+    },
+    "reviewer_result": {
+      "pass_review": true,
+      "score": 100,
+      "mathematical_validity": 100,
+      "clarity": 100,
+      "distractor_quality": 100,
+      "difficulty_accuracy": 100,
+      "difficulty_matches": true,
+      "originality_risk": "low",
+      "issues": [],
+      "reviewer_notes": "The question is mathematically sound, unambiguous, self-contained, and correctly categorized as easy. Distractors reflect common arithmetic and operational errors, and the explanation is clear and precise."
+    },
+    "models_used": {
+      "generator": "gemini-3.5-flash-lite",
+      "solver": "gemini-3.5-flash-lite",
+      "reviewer": "gemini-3.5-flash-lite"
+    }
+  },
+  {
+    "candidate_id": "TF-7CC043C9956C4F60ADA052F2AD5F074B",
+    "work_order_id": "WO-002",
+    "work_order": {
+      "id": "WO-002",
+      "domain": "algebra",
+      "skill": "Solving linear equations in one variable",
+      "difficulty": "medium",
+      "question_type": "multiple_choice"
+    },
+    "timestamp": "2026-10-01T22:17:11Z",
+    "question": {
+      "section": "math",
+      "domain": "algebra",
+      "skill": "Solving linear equations in one variable",
+      "difficulty": "medium",
+      "question": "A community garden recently purchased a bulk supply of organic fertilizer. The remaining weight of the fertilizer, in pounds, after being used for t weeks is given by the equation W = 240 - 18t. If the remaining weight of the fertilizer is 78 pounds, for how many weeks has the fertilizer been used?",
+      "type": "multiple_choice",
+      "choices": {
+        "A": "7",
+        "B": "9",
+        "C": "13",
+        "D": "15"
+      },
+      "correct_answer": "B",
+      "explanation": "To find the number of weeks t when the remaining weight W is 78 pounds, substitute 78 for W in the given equation: 78 = 240 - 18t. Subtract 240 from both sides to get -162 = -18t. Divide both sides by -18 to find t = 9.",
+      "generator_confidence": 1.0
+    },
+    "solver_result": {
+      "answer": "B",
+      "reasoning": "To find the number of weeks $t$ when the remaining weight $W$ is 78 pounds, substitute $W = 78$ into the equation $W = 240 - 18t$. This gives $78 = 240 - 18t$. Subtracting 240 from both sides yields $-162 = -18t$. Dividing by $-18$, we get $t = \frac{-162}{-18} = 9$. Thus, the fertilizer has been used for 9 weeks.",
+      "confidence": 1.0
+    },
+    "reviewer_result": {
+      "pass_review": true,
+      "score": 98,
+      "mathematical_validity": 100,
+      "clarity": 100,
+      "distractor_quality": 95,
+      "difficulty_accuracy": 95,
+      "difficulty_matches": true,
+      "originality_risk": "low",
+      "issues": [],
+      "reviewer_notes": "The question is mathematically sound, clearly worded, and self-contained. The difficulty level is appropriate for a one-step linear equation substitution problem requiring basic algebraic manipulation. Distractors are well-designed to catch common arithmetic or sign errors."
+    },
+    "models_used": {
+      "generator": "gemini-3.5-flash-lite",
+      "solver": "gemini-3.5-flash-lite",
+      "reviewer": "gemini-3.5-flash-lite"
+    }
+  },
+  {
+    "candidate_id": "TF-7A10AAE2D8EE48F785A4BA492045EC80",
+    "work_order_id": "WO-003",
+    "work_order": {
+      "id": "WO-003",
+      "domain": "algebra",
+      "skill": "Solving systems of linear equations",
+      "difficulty": "medium",
+      "question_type": "multiple_choice"
+    },
+    "timestamp": "2026-10-01T22:17:19Z",
+    "question": {
+      "section": "math",
+      "domain": "algebra",
+      "skill": "Solving systems of linear equations",
+      "difficulty": "medium",
+      "question": "At a local artisan market, a vendor sells two types of ceramic mugs: small mugs and large mugs. On Saturday, the vendor sold 14 small mugs and 8 large mugs for a total of $332. On Sunday, the vendor sold 21 small mugs and 12 large mugs for a total of $498. What is the combined price of one small mug and one large mug?",
+      "type": "multiple_choice",
+      "choices": {
+        "A": "26.50",
+        "B": "31.00",
+        "C": "34.50",
+        "D": "41.50"
+      },
+      "correct_answer": "B",
+      "explanation": "Let s represent the price of a small mug and l represent the price of a large mug. The information from Saturday gives the equation 14s + 8l = 332, and Sunday gives 21s + 12l = 498. Notice that multiplying the first equation by 1.5 gives 21s + 12l = 498, which shows the two equations represent the exact same line and the system has infinitely many solutions. This means the individual prices of s and l cannot be uniquely determined, but we can find relationships. Let us check another approach: divide Saturday's equation by 2 to get 7s + 4l = 166, and Sunday's equation by 3 to get 7s + 4l = 166. Since any pair satisfying 7s + 4l = 166 is valid, let us test the choices for s + l. If s + l = 31, then l = 31 - s. Substituting this into 7s + 4(31 - s) = 166 gives 7s + 124 - 4s = 166, so 3s = 42, which means s = 14 and l = 17. Checking these values in Saturday's equation: 14(14) + 8(17) = 196 + 136 = 332, which is correct. Therefore, the combined price of one small mug and one large mug is 31.00.",
+      "generator_confidence": 1.0
+    },
+    "solver_result": {
+      "answer": "B",
+      "reasoning": "Let $s$ be the price of a small mug and $l$ be the price of a large mug. From the problem, we have the system of equations: (1) $14s + 8l = 332$ and (2) $21s + 12l = 498$. Notice that equation (2) is simply equation (1) multiplied by $1.5$ ($14 \times 1.5 = 21$, $8 \times 1.5 = 12$, and $332 \times 1.5 = 498$), which means the two equations are dependent and describe the same line. We can simplify equation (1) by dividing by 2: $7s + 4l = 166$. We want to find the combined price of one small and one large mug, which is $s + l$. If we multiply $7s + 4l = 166$ by a factor, or look at possible integer combinations, let's test combinations: If $s + l = 31$, then $l = 31 - s$. Substituting this into $7s + 4(31 - s) = 166 \rightarrow 7s + 124 - 4s = 166 \rightarrow 3s = 42 \rightarrow s = 14$. If $s = 14$, then $l = 31 - 14 = 17$. Let's check with the first equation: $14(14) + 8(17) = 196 + 136 = 332$, which is correct. Therefore, $s = 14$ and $l = 17$, and their combined price is $14 + 17 = 31.00$.",
+      "confidence": 1.0
+    },
+    "reviewer_result": {
+      "pass_review": true,
+      "score": 95,
+      "mathematical_validity": 100,
+      "clarity": 95,
+      "distractor_quality": 90,
+      "difficulty_accuracy": 95,
+      "difficulty_matches": true,
+      "originality_risk": "low",
+      "issues": [],
+      "reviewer_notes": "The question is mathematically sound, cleverly designed as a dependent system where the sum of the variables can still be uniquely determined, and the explanation and solver reasoning are accurate."
+    },
+    "models_used": {
+      "generator": "gemini-3.5-flash-lite",
+      "solver": "gemini-3.5-flash-lite",
+      "reviewer": "gemini-3.5-flash-lite"
+    }
+  },
+  {
+    "candidate_id": "TF-94DF576FBAE244BE8DAACC774A3ACBDF",
+    "work_order_id": "WO-004",
+    "work_order": {
+      "id": "WO-004",
+      "domain": "advanced_math",
+      "skill": "Evaluating and interpreting functions",
+      "difficulty": "medium",
+      "question_type": "multiple_choice"
+    },
+    "timestamp": "2026-10-01T22:17:28Z",
+    "question": {
+      "section": "math",
+      "domain": "advanced_math",
+      "skill": "Evaluating and interpreting functions",
+      "difficulty": "medium",
+      "question": "A research team models the population density of a rare wildflower species using the function P(t) = 450(1.03)^t, where P(t) represents the number of plants per square kilometer and t is the number of years since the study began. Which of the following is the best interpretation of the number 1.03 in this context?",
+      "type": "multiple_choice",
+      "choices": {
+        "A": "The initial population density of the wildflowers when the study began was 1.03 plants per square kilometer.",
+        "B": "The population density of the wildflowers is expected to increase by 3% each year.",
+        "C": "The population density of the wildflowers is expected to increase by 1.03 plants per square kilometer each year.",
+        "D": "The number of years it takes for the population density to double is 1.03 years."
+      },
+      "correct_answer": "B",
+      "explanation": "In an exponential growth function of the form P(t) = a(b)^t, the base b represents the growth factor per time period t. Since b = 1.03, we can rewrite it as 1 + 0.03, which indicates a growth rate of 3% per year. Therefore, choice B is correct.",
+      "generator_confidence": 1.0
+    },
+    "solver_result": {
+      "answer": "B",
+      "reasoning": "In the exponential growth function P(t) = 450(1.03)^t, the base of the exponent is 1.03. This can be written as (1 + 0.03), which indicates that the population increases by a factor of 1.03 each year, representing a growth rate of 3% per year.",
+      "confidence": 1.0
+    },
+    "reviewer_result": {
+      "pass_review": true,
+      "score": 95,
+      "mathematical_validity": 100,
+      "clarity": 100,
+      "distractor_quality": 95,
+      "difficulty_accuracy": 90,
+      "difficulty_matches": true,
+      "originality_risk": "low",
+      "issues": [],
+      "reviewer_notes": "The question is mathematically correct, clear, and well-written. The distractors target common student errors such as confusing linear growth with exponential growth, confusing base with initial value, and misinterpreting growth factor as doubling time."
+    },
+    "models_used": {
+      "generator": "gemini-3.5-flash-lite",
+      "solver": "gemini-3.5-flash-lite",
+      "reviewer": "gemini-3.6-flash"
+    }
+  },
+  {
+    "candidate_id": "TF-6738D612FA504819B36FA6ECBEAA1021",
+    "work_order_id": "WO-005",
+    "work_order": {
+      "id": "WO-005",
+      "domain": "problem_solving_and_data_analysis",
+      "skill": "Solving percentage problems",
+      "difficulty": "easy",
+      "question_type": "multiple_choice"
+    },
+    "timestamp": "2026-10-01T22:17:46Z",
+    "question": {
+      "section": "math",
+      "domain": "problem_solving_and_data_analysis",
+      "skill": "Solving percentage problems",
+      "difficulty": "easy",
+      "question": "At a local bookstore, a notebook originally priced at $15.00 is marked down by 20% during a weekend sale. What is the sale price of the notebook?",
+      "type": "multiple_choice",
+      "choices": {
+        "A": "$3.00",
+        "B": "$12.00",
+        "C": "$12.50",
+        "D": "$18.00"
+      },
+      "correct_answer": "B",
+      "explanation": "To find the sale price, first calculate the discount amount by multiplying the original price by the percentage discount: $15.00 * 0.20 = $3.00. Then, subtract the discount from the original price: $15.00 - $3.00 = $12.00. (Choice A is the discount amount, Choice C is a calculation error, and Choice D is an increase instead of a markdown).",
+      "generator_confidence": 1.0
+    },
+    "solver_result": {
+      "answer": "B",
+      "reasoning": "The original price of the notebook is $15.00 and it is marked down by 20%. The discount amount is 20% of $15.00, which is 0.20 * 15 = $3.00. The sale price is the original price minus the discount amount, so $15.00 - $3.00 = $12.00.",
+      "confidence": 1.0
+    },
+    "reviewer_result": {
+      "pass_review": true,
+      "score": 100,
+      "mathematical_validity": 100,
+      "clarity": 100,
+      "distractor_quality": 100,
+      "difficulty_accuracy": 100,
+      "difficulty_matches": true,
+      "originality_risk": "low",
+      "issues": [],
+      "reviewer_notes": "The question is mathematically valid, clear, self-contained, and educationally useful. The distractors represent common student errors (Choice A is the discount amount, Choice D is adding instead of subtracting). The claimed difficulty of easy is accurate for a one-step percentage discount problem. Exactly one answer is correct and the explanation is accurate."
+    },
+    "models_used": {
+      "generator": "gemini-3.5-flash-lite",
+      "solver": "gemini-3.5-flash-lite",
+      "reviewer": "gemini-3.5-flash-lite"
+    }
+  },
+  {
+    "candidate_id": "TF-68972A682F394D0884A7887925FC6522",
+    "work_order_id": "WO-006",
+    "work_order": {
+      "id": "WO-006",
+      "domain": "problem_solving_and_data_analysis",
+      "skill": "Solving ratios and proportions",
+      "difficulty": "medium",
+      "question_type": "multiple_choice"
+    },
+    "timestamp": "2026-10-01T22:18:03Z",
+    "question": {
+      "section": "math",
+      "domain": "problem_solving_and_data_analysis",
+      "skill": "Solving ratios and proportions",
+      "difficulty": "medium",
+      "question": "At a regional greenhouse, the ratio of flowering plants to green foliage plants is 5 to 3. If a shipment arrives containing a total of 160 plants following the same ratio, how many more flowering plants than green foliage plants are in the shipment?",
+      "type": "multiple_choice",
+      "choices": {
+        "A": "20",
+        "B": "40",
+        "C": "60",
+        "D": "100"
+      },
+      "correct_answer": "B",
+      "explanation": "The given ratio of flowering plants to green foliage plants is 5 to 3, which means there are 5 parts flowering plants and 3 parts foliage plants, making a total of 5 + 3 = 8 parts. To find the value of one part in the 160-plant shipment, divide 160 by 8, which equals 20 plants per part. The difference between flowering plants and foliage plants is 5 parts - 3 parts = 2 parts. Multiplying the 2 parts difference by 20 gives 40 more flowering plants.",
+      "generator_confidence": 1.0
+    },
+    "solver_result": {
+      "answer": "B",
+      "reasoning": "The ratio of flowering plants to green foliage plants is 5 to 3. This means there are 5 parts flowering plants and 3 parts green foliage plants, for a total of 5 + 3 = 8 parts. Each part represents 160 / 8 = 20 plants. The difference between flowering plants and green foliage plants is 5 - 3 = 2 parts. Therefore, there are 2 * 20 = 40 more flowering plants than green foliage plants.",
+      "confidence": 1.0
+    },
+    "reviewer_result": {
+      "pass_review": true,
+      "score": 100,
+      "mathematical_validity": 100,
+      "clarity": 100,
+      "distractor_quality": 100,
+      "difficulty_accuracy": 100,
+      "difficulty_matches": true,
+      "originality_risk": "low",
+      "issues": [],
+      "reviewer_notes": "The question is mathematically sound, well-worded, and clearly structured. The ratio and proportion concept is appropriately leveled as medium difficulty, and the distractors represent plausible student calculation errors (such as calculating the number of foliage or flowering plants individually rather than the difference)."
+    },
+    "models_used": {
+      "generator": "gemini-3.5-flash-lite",
+      "solver": "gemini-3.5-flash-lite",
+      "reviewer": "gemini-3.5-flash-lite"
+    }
+  },
+  {
+    "candidate_id": "TF-2EE9DAFD7D594C1AB371DB6AF16DABEF",
+    "work_order_id": "WO-007",
+    "work_order": {
+      "id": "WO-007",
+      "domain": "advanced_math",
+      "skill": "Solving quadratic equations",
+      "difficulty": "medium",
+      "question_type": "multiple_choice"
+    },
+    "timestamp": "2026-10-01T22:18:11Z",
+    "question": {
+      "section": "math",
+      "domain": "advanced_math",
+      "skill": "Solving quadratic equations",
+      "difficulty": "medium",
+      "question": "What are all the real solutions to the equation 2(x - 3)^2 - 8 = 0?",
+      "type": "multiple_choice",
+      "choices": {
+        "A": "x = 3 + 2\\sqrt{2} and x = 3 - 2\\sqrt{2}",
+        "B": "x = 3 + 4 and x = 3 - 4",
+        "C": "x = 1 and x = 5",
+        "D": "x = 3 + \\sqrt{2} and x = 3 - \\sqrt{2}"
+      },
+      "correct_answer": "C",
+      "explanation": "To solve 2(x - 3)^2 - 8 = 0, first add 8 to both sides to get 2(x - 3)^2 = 8. Next, divide both sides by 2, which gives (x - 3)^2 = 4. Taking the square root of both sides yields x - 3 = 2 or x - 3 = -2. Solving these gives x = 5 and x = 1.",
+      "generator_confidence": 1.0
+    },
+    "solver_result": {
+      "answer": "C",
+      "reasoning": "To solve 2(x - 3)^2 - 8 = 0, we first add 8 to both sides to get 2(x - 3)^2 = 8. Next, divide by 2 to obtain (x - 3)^2 = 4. Taking the square root of both sides gives x - 3 = 2 or x - 3 = -2. Solving these yields x = 5 and x = 1. Therefore, the solutions are x = 1 and x = 5.",
+      "confidence": 1.0
+    },
+    "reviewer_result": {
+      "pass_review": true,
+      "score": 100,
+      "mathematical_validity": 100,
+      "clarity": 100,
+      "distractor_quality": 100,
+      "difficulty_accuracy": 100,
+      "difficulty_matches": true,
+      "originality_risk": "low",
+      "issues": [],
+      "reviewer_notes": "The question is mathematically sound, clear, self-contained, and features well-designed distractors targeting common student misconceptions (such as failing to distribute properly or missing a square root factor). The stated difficulty is appropriate for the skill level."
+    },
+    "models_used": {
+      "generator": "gemini-3.5-flash-lite",
+      "solver": "gemini-3.5-flash-lite",
+      "reviewer": "gemini-3.5-flash-lite"
+    }
+  },
+  {
+    "candidate_id": "TF-4803CC638B8246048A5CE3A72B6D748C",
+    "work_order_id": "WO-008",
+    "work_order": {
+      "id": "WO-008",
+      "domain": "advanced_math",
+      "skill": "Solving quadratic equations",
+      "difficulty": "hard",
+      "question_type": "multiple_choice"
+    },
+    "timestamp": "2026-10-01T22:19:58Z",
+    "question": {
+      "section": "math",
+      "domain": "advanced_math",
+      "skill": "Solving quadratic equations",
+      "difficulty": "hard",
+      "question": "If the equation $3x^2 - 12x + k = 0$ has a single real solution for $x$, what is the value of $k$?",
+      "type": "multiple_choice",
+      "choices": {
+        "A": "4",
+        "B": "6",
+        "C": "12",
+        "D": "16"
+      },
+      "correct_answer": "C",
+      "explanation": "A quadratic equation of the form ax^2 + bx + c = 0 has a single real solution (i.e., exactly one distinct real root) when its discriminant is equal to zero. The discriminant is given by b^2 - 4ac. For the given equation, a = 3, b = -12, and c = k. Setting the discriminant to zero gives (-12)^2 - 4(3)(k) = 0, which simplifies to 144 - 12k = 0. Solving for k yields 12k = 144, so k = 12.",
+      "generator_confidence": 1.0
+    },
+    "solver_result": {
+      "answer": "C",
+      "reasoning": "For a quadratic equation $ax^2 + bx + c = 0$ to have a single real solution, its discriminant must be equal to zero. The discriminant is given by $\\Delta = b^2 - 4ac$. Here, $a = 3$, $b = -12$, and $c = k$. Setting the discriminant to zero gives $(-12)^2 - 4(3)(k) = 0$, which simplifies to $144 - 12k = 0$. Solving for $k$ yields $12k = 144$, so $k = 12$.",
+      "confidence": 1.0
+    },
+    "reviewer_result": {
+      "pass_review": true,
+      "score": 95,
+      "mathematical_validity": 100,
+      "clarity": 100,
+      "distractor_quality": 90,
+      "difficulty_accuracy": 85,
+      "difficulty_matches": true,
+      "originality_risk": "low",
+      "issues": [],
+      "reviewer_notes": "The question is mathematically sound, clearly worded, and features a correct solution and reasonable distractors. The difficulty is appropriate for medium-to-hard level quadratic discriminant problems."
+    },
+    "models_used": {
+      "generator": "gemini-3.5-flash-lite",
+      "solver": "gemini-3.5-flash-lite",
+      "reviewer": "gemini-3.5-flash-lite"
+    }
+  },
+  {
+    "candidate_id": "TF-1F4C7592CE9744CA8E939CBC7A47CBCB",
+    "work_order_id": "WO-009",
+    "work_order": {
+      "id": "WO-009",
+      "domain": "problem_solving_and_data_analysis",
+      "skill": "Interpreting data in tables and graphs",
+      "difficulty": "medium",
+      "question_type": "multiple_choice"
+    },
+    "timestamp": "2026-10-01T22:20:15Z",
+    "question": {
+      "section": "math",
+      "domain": "problem_solving_and_data_analysis",
+      "skill": "Interpreting data in tables and graphs",
+      "difficulty": "medium",
+      "question": "A local wildlife sanctuary tracks the number of visitors during four different seasonal months. The table below shows the average daily visitor count and the corresponding percentage of visitors who participated in the guided conservation tour. Month | Avg Daily Visitors | % on Guided Tour. April | 150 | 40%. July | 300 | 60%. October | 200 | 50%. December | 100 | 30%. Based on the table, which month had the greatest total number of visitors who participated in the guided conservation tour?",
+      "type": "multiple_choice",
+      "choices": {
+        "A": "April",
+        "B": "July",
+        "C": "October",
+        "D": "December"
+      },
+      "correct_answer": "B",
+      "explanation": "To find the total number of visitors who participated in the guided conservation tour for each month, multiply the average daily visitors by the percentage (in decimal form) of visitors on the guided tour. April: 150 * 0.40 = 60 visitors. July: 300 * 0.60 = 180 visitors. October: 200 * 0.50 = 100 visitors. December: 100 * 0.30 = 30 visitors. July had the greatest total of 180 guided tour participants.",
+      "generator_confidence": 1.0
+    },
+    "solver_result": {
+      "answer": "B",
+      "reasoning": "To find the month with the greatest total number of visitors on the guided tour, we calculate the number of guided tour participants for each month by multiplying the average daily visitors by the percentage on the guided tour: April = 150 * 0.40 = 60 visitors. July = 300 * 0.60 = 180 visitors. October = 200 * 0.50 = 100 visitors. December = 100 * 0.30 = 30 visitors. July has the highest total at 180 visitors.",
+      "confidence": 1.0
+    },
+    "reviewer_result": {
+      "pass_review": true,
+      "score": 100,
+      "mathematical_validity": 100,
+      "clarity": 100,
+      "distractor_quality": 100,
+      "difficulty_accuracy": 100,
+      "difficulty_matches": true,
+      "originality_risk": "low",
+      "issues": [],
+      "reviewer_notes": "The question is mathematically sound, clearly worded, and well-suited to the medium difficulty level. The distractors reflect realistic student errors such as confusing percentages with absolute numbers or just looking at average daily visitors without computing the total. The explanation is accurate."
+    },
+    "models_used": {
+      "generator": "gemini-3.5-flash-lite",
+      "solver": "gemini-3.5-flash-lite",
+      "reviewer": "gemini-3.5-flash-lite"
+    }
+  },
+  {
+    "candidate_id": "TF-C5622CD9897F46478A9F6EA6665CDA00",
+    "work_order_id": "WO-010",
+    "work_order": {
+      "id": "WO-010",
+      "domain": "geometry_and_trigonometry",
+      "skill": "Solving geometry problems involving area and perimeter",
+      "difficulty": "medium",
+      "question_type": "multiple_choice"
+    },
+    "timestamp": "2026-10-01T22:21:24Z",
+    "question": {
+      "section": "math",
+      "domain": "geometry_and_trigonometry",
+      "skill": "Solving geometry problems involving area and perimeter",
+      "difficulty": "medium",
+      "question": "A painter has a rectangular mural space on a wall where the length is 3 feet greater than twice its width. If the perimeter of the mural space is 42 feet, what is the area of the mural space, in square feet?",
+      "type": "multiple_choice",
+      "choices": {
+        "A": "84",
+        "B": "90",
+        "C": "108",
+        "D": "126"
+      },
+      "correct_answer": "B",
+      "explanation": "Let the width of the mural be w. The length l is given by l = 2w + 3. The formula for the perimeter of a rectangle is P = 2(l + w). Substituting the expression for l gives 42 = 2((2w + 3) + w), which simplifies to 42 = 2(3w + 3). Dividing both sides by 2 yields 21 = 3w + 3, so 3w = 18 and w = 6 feet. The length is l = 2(6) + 3 = 15 feet. The area is width times length: 6 * 15 = 90 square feet.",
+      "generator_confidence": 1.0
+    },
+    "solver_result": {
+      "answer": "B",
+      "reasoning": "Let the width of the mural be w. The length is given as l = 2w + 3. The formula for the perimeter of a rectangle is P = 2(l + w). We are given that P = 42. Substituting l into the perimeter equation gives 42 = 2((2w + 3) + w), which simplifies to 42 = 2(3w + 3). Dividing both sides by 2 yields 21 = 3w + 3, so 3w = 18, and w = 6. The length is l = 2(6) + 3 = 15. The area of the mural space is length times width, which is 15 * 6 = 90 square feet. This corresponds to answer choice B.",
+      "confidence": 1.0
+    },
+    "reviewer_result": {
+      "pass_review": true,
+      "score": 100,
+      "mathematical_validity": 100,
+      "clarity": 100,
+      "distractor_quality": 100,
+      "difficulty_accuracy": 100,
+      "difficulty_matches": true,
+      "originality_risk": "low",
+      "issues": [],
+      "reviewer_notes": "The question is mathematically sound, clearly worded, and effectively tests perimeter and area concepts in a standard algebraic setup. The distractors correspond to common arithmetic or setup errors, and the difficulty level is appropriate for medium."
+    },
+    "models_used": {
+      "generator": "gemini-3.5-flash-lite",
+      "solver": "gemini-3.5-flash-lite",
+      "reviewer": "gemini-3.5-flash-lite"
+    }
+  }
+]

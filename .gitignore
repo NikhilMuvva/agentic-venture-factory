@@ -1,0 +1,52 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials
+credentials/
+secrets/
+*.pem
+*.key
+
+# Runtime databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Generated TestForge data
+ventures/testforge/data/approved/
+ventures/testforge/data/rejected/
+ventures/testforge/data/visuals/
+ventures/testforge/data/runs/
+ventures/testforge/data/model_usage.jsonl
+
+# Temporary
+tmp/
+temp/
+
+# Paper build output
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.synctex.gz

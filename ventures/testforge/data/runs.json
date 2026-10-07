@@ -1,0 +1,115 @@
+[
+  {
+    "run_id": "RUN-84E31A79023949188B6779371A1BF51E",
+    "started_at": "2026-10-01T22:16:40Z",
+    "completed_at": "2026-10-01T22:21:29Z",
+    "target_approved": 10,
+    "approved_count": 10,
+    "rejected_count": 11,
+    "total_attempts": 21,
+    "approval_rate": 47.6,
+    "api_model_failures": [
+      {
+        "candidate_id": "TF-94DF576FBAE244BE8DAACC774A3ACBDF",
+        "stage": "reviewer",
+        "model": "gemini-3.5-flash-lite",
+        "attempt": 1,
+        "failure_type": "API_FAILURE",
+        "error_type": "ClientError",
+        "status_code": 429
+      },
+      {
+        "candidate_id": "TF-94DF576FBAE244BE8DAACC774A3ACBDF",
+        "stage": "reviewer",
+        "model": "gemini-3.5-flash-lite",
+        "attempt": 2,
+        "failure_type": "API_FAILURE",
+        "error_type": "ClientError",
+        "status_code": 429
+      },
+      {
+        "candidate_id": "TF-94DF576FBAE244BE8DAACC774A3ACBDF",
+        "stage": "reviewer",
+        "model": "gemini-3.5-flash-lite",
+        "attempt": 3,
+        "failure_type": "API_FAILURE",
+        "error_type": "ClientError",
+        "status_code": 429
+      },
+      {
+        "candidate_id": "TF-94DF576FBAE244BE8DAACC774A3ACBDF",
+        "stage": "reviewer",
+        "model": "gemini-3.8-flash",
+        "attempt": 1,
+        "failure_type": "API_FAILURE",
+        "error_type": "ClientError",
+        "status_code": 429
+      },
+      {
+        "candidate_id": "TF-94DF576FBAE244BE8DAACC774A3ACBDF",
+        "stage": "reviewer",
+        "model": "gemini-3.8-flash",
+        "attempt": 2,
+        "failure_type": "API_FAILURE",
+        "error_type": "ClientError",
+        "status_code": 429
+      },
+      {
+        "candidate_id": "TF-94DF576FBAE244BE8DAACC774A3ACBDF",
+        "stage": "reviewer",
+        "model": "gemini-3.8-flash",
+        "attempt": 3,
+        "failure_type": "API_FAILURE",
+        "error_type": "ClientError",
+        "status_code": 429
+      },
+      {
+        "candidate_id": "TF-70A1685F8943483F875CD2EE1B20A272",
+        "stage": "generator",
+        "model": "gemini-3.5-flash-lite",
+        "attempt": 1,
+        "failure_type": "API_FAILURE",
+        "error_type": "ReadTimeout",
+        "status_code": null
+      },
+      {
+        "candidate_id": "TF-F939763C9BDF44C78CBA76C5C4FA40B2",
+        "stage": "solver",
+        "model": "gemini-3.5-flash-lite",
+        "attempt": 1,
+        "failure_type": "API_FAILURE",
+        "error_type": "ServerError",
+        "status_code": 504
+      },
+      {
+        "candidate_id": "TF-22F01F27F5CD489EBF552AE5DC5D4D92",
+        "stage": "reviewer",
+        "model": "gemini-3.5-flash-lite",
+        "attempt": 1,
+        "failure_type": "API_FAILURE",
+        "error_type": "ClientError",
+        "status_code": 429
+      },
+      {
+        "candidate_id": "TF-22F01F27F5CD489EBF552AE5DC5D4D92",
+        "stage": "reviewer",
+        "model": "gemini-3.5-flash-lite",
+        "attempt": 2,
+        "failure_type": "API_FAILURE",
+        "error_type": "ClientError",
+        "status_code": 429
+      }
+    ],
+    "questions_generated_by_domain": {
+      "algebra": 5,
+      "advanced_math": 7,
+      "problem_solving_and_data_analysis": 5,
+      "geometry_and_trigonometry": 4
+    },
+    "questions_generated_by_difficulty": {
+      "easy": 2,
+      "medium": 14,
+      "hard": 5
+    }
+  }
+]

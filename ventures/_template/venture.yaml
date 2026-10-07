@@ -1,0 +1,20 @@
+venture_id: venture_template
+name: Example Venture
+description:
+objective:
+status: development
+
+budget:
+  daily_ai_budget_usd: 0.25
+
+agents: []
+
+workflows: []
+
+approval_policy:
+  financial_actions: human_required
+  legal_actions: human_required
+  external_communications: human_required
+
+model_policy:
+  routing: centralized

@@ -1,0 +1,51 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pytest
+          if [ -f ventures/testforge/requirements.txt ]; then
+            python -m pip install -r ventures/testforge/requirements.txt
+          fi
+
+      - name: Compile Python files
+        run: python -m compileall avf ventures tests
+
+      - name: Run pytest when tests exist
+        env:
+          GEMINI_API_KEY: ""
+          DASHSCOPE_API_KEY: ""
+          QWEN_BASE_URL: ""
+          DEEPSEEK_API_KEY: ""
+          DEEPSEEK_BASE_URL: ""
+          LOCAL_LLM_BASE_URL: ""
+          LOCAL_LLM_MODEL: ""
+        run: |
+          if find tests -name 'test_*.py' -print -quit | grep -q .; then
+            python -m pytest tests
+          else
+            echo "No root tests found."
+          fi
+
+          if find ventures/testforge/tests -name 'test_*.py' -print -quit | grep -q .; then
+            (cd ventures/testforge && python -m pytest tests)
+          else
+            echo "No TestForge tests found."
+          fi

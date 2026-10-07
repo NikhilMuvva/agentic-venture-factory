@@ -1,0 +1,11 @@
+[project]
+name = "agentic-venture-factory"
+version = "0.1.0"
+description = "Experimental modular framework for autonomous agent-driven digital ventures."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

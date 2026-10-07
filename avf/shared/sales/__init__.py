@@ -1,0 +1,1 @@
+"""Shared sales service utilities."""

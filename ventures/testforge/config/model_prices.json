@@ -1,0 +1,37 @@
+{
+  "PRICE_LAST_UPDATED": "2026-10-02",
+  "NOTE": "Estimated configurable prices in USD per 1M tokens. These are not permanent constants.",
+  "models": {
+    "qwen-flash": {
+      "provider": "qwen",
+      "input_per_million": 0.022,
+      "output_per_million": 0.216
+    },
+    "qwen3.7-flash": {
+      "provider": "qwen",
+      "input_per_million": 0.028,
+      "output_per_million": 0.11
+    },
+    "gemini-2.5-flash-lite": {
+      "provider": "gemini",
+      "input_per_million": 0.1,
+      "output_per_million": 0.4
+    },
+    "gemini-3.5-flash-lite": {
+      "provider": "gemini",
+      "input_per_million": 0.3,
+      "output_per_million": 2.5
+    },
+    "gemini-3.8-flash": {
+      "provider": "gemini",
+      "input_per_million": 0.3,
+      "output_per_million": 2.5
+    },
+    "deepseek-flash": {
+      "provider": "deepseek",
+      "input_per_million": 0.15,
+      "output_per_million": 0.6,
+      "note": "Default estimated off-peak pricing; configure for peak/off-peak rates."
+    }
+  }
+}
